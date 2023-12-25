@@ -1,8 +1,9 @@
 name: hello-world
 on: push
 jobs:
-  my-job: 
+  my-job:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: my-step
-      run: make say-hello
+        run: make say-hello
+            
